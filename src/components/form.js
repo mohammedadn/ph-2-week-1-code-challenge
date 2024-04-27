@@ -21,8 +21,8 @@ function Form({handleNewData}) {
 
 
   return(
-  <form className="" onSubmit={handleSubmit} style={{ border: "1px solid lightgrey" }}>
-    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+  <form className="" onSubmit={handleSubmit} style={{ border: "2px solid black" }}>
+    <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", flexWrap: "wrap", fontFamily: "sans-serif"}}>
       <div className="col-md-3 p-1 ">
         <input
           type="text"

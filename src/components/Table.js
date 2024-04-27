@@ -3,11 +3,8 @@ function Table({transaction}){
 
 
     return(
-        <div
-        style={{
-        textAlign: 'center',
-        }}>
-        <table className="table table-light">
+        <div>
+        <table className="table table-success table-striped">
             <thead>
                 <tr>
                     <th>Date</th>

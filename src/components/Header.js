@@ -5,7 +5,7 @@ function Header() {
     <div
       className="container-fluid"
       style={{
-        background: "linear-gradient( #4B0082, #700080)",
+        background: "linear-gradient( #613432, #291110)",
         color: "#FFFFFF",
         textAlign: "center",
         paddingTop: "10px",
