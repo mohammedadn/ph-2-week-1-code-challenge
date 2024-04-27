@@ -10,22 +10,28 @@ import { useState } from 'react';
 function App() {
   const transaction = [
     {
-        date: "14/04/2024",
-        description: "Withdraw",
-        category: "Salary",
-        amount: "3000"
-    },
-    {
-        date: "14/04/2024",
-        description: "Deposit",
-        category: "Income",
-        amount: "50000"
-    },
-    {
-        date: "16/04/2024",
-        description: "Business",
+      date: "28/04/2024",
+        description: "Miscellaneous",
         category: "Expenditure",
-        amount: "5000"
+        amount: "Ksh 23,500"
+    },
+    {
+        date: "30/03/2024",
+        description: "Salary",
+        category: "Deposit",
+        amount: "Ksh 900,000"
+    },
+    {
+        date: "21/07/2023",
+        description: "Mercedes c200",
+        category: "Expenditure",
+        amount: "Ksh 3,500,000"
+    },
+    {
+        date: "23/12/2023",
+        description: "Kenya Airways",
+        category: "Expenditure",
+        amount: "Ksh 35,000"
     }
       ]
 
