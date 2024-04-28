@@ -11,7 +11,7 @@ function App() {
   const transaction = [
     {
       date: "28/04/2024",
-        description: "Miscellaneous",
+        description: "Car payment",
         category: "Expenditure",
         amount: "Ksh 23,500"
     },
@@ -19,17 +19,17 @@ function App() {
         date: "30/03/2024",
         description: "Salary",
         category: "Deposit",
-        amount: "Ksh 900,000"
+        amount: "Ksh 320,000"
     },
     {
         date: "21/07/2023",
-        description: "Mercedes c200",
+        description: "BMW 320i Grand Turismo",
         category: "Expenditure",
         amount: "Ksh 3,500,000"
     },
     {
         date: "23/12/2023",
-        description: "Kenya Airways",
+        description: "Grocery",
         category: "Expenditure",
         amount: "Ksh 35,000"
     }
