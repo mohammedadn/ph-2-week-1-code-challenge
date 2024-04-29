@@ -1,27 +1,27 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-function Form({handleNewData}) {
+function Form({ControlNewData}) {
 
     const [formData, setFormData] = useState({description:"", category: "", amount: "", date: ""} )
 
 
 
-    function handleChange(e){
+    function ControlDifference(e){
         setFormData({...formData, [e.target.name]: e.target.value})
     }
 
-    function handleSubmit(e){
+    function ControlSubmit(e){
         e.preventDefault()
         setFormData({description:"", category: "", amount: "", date: ""})
 
 
-        handleNewData(formData) 
+        ControlNewData(formData) 
     }
 
 
 
   return(
-  <form className="" onSubmit={handleSubmit} style={{ border: "2px solid black" }}>
+  <form className="" onSubmit={ControlSubmit} style={{ border: "2px solid black" }}>
     <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", flexWrap: "wrap", fontFamily: "sans-serif"}}>
       <div className="col-md-3 p-1 ">
         <input
@@ -30,7 +30,7 @@ function Form({handleNewData}) {
           placeholder="Description"
           name="description"
           value={formData.description}
-          onChange={handleChange}
+          onChange={ControlDifference}
           required
         />
       </div>
@@ -42,7 +42,7 @@ function Form({handleNewData}) {
           placeholder="Category"
           name="category"
           value={formData.category}
-          onChange={handleChange}
+          onChange={ControlDifference}
           required
         />
       </div>
@@ -54,7 +54,7 @@ function Form({handleNewData}) {
           placeholder="Amount"
           name="amount"
           value={formData.amount}
-          onChange={handleChange}
+          onChange={ControlDifference}
           required
         />
       </div>
@@ -63,7 +63,7 @@ function Form({handleNewData}) {
         <label className="me-2"></label>
         <input type="date" className="form-control" name="date" 
         value={formData.date}
-        onChange={handleChange}
+        onChange={ControlDifference}
         required />
       </div>
     </div>
@@ -71,7 +71,7 @@ function Form({handleNewData}) {
     <button
       type="submit"
       className="btn btn-secondary col-md-2 mx-auto d-block mt-3">
-      Add Transaction
+      Add New Transaction
     </button>
   </form>
   )

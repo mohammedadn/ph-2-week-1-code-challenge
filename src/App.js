@@ -51,7 +51,7 @@ function App() {
         }
         })
         
-      function handleNewData (formData) {
+      function ControlNewData (formData) {
         setData([...data, formData])
       }
 
@@ -61,7 +61,7 @@ function App() {
   
     <Header/>
     <Search searchBar={handleSearch}/>
-    <Form handleNewData={handleNewData}/>
+    <Form ControlNewData={ControlNewData}/>
     <Table transaction={newData}/>
 
     
