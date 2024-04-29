@@ -13,7 +13,7 @@ function App() {
       date: "27/04/2024",
     description: "Super Metro",
       category: "Expenditure",
-     amount: "Ksh 980"
+     amount: "Ksh 970"
      },
     {
       date: "28/04/2024",
