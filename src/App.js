@@ -9,12 +9,12 @@ import { useState } from 'react';
 
 function App() {
   const transaction = [
-    {
-    date: "27/04/2024",
+      {
+      date: "27/04/2024",
     description: "Super Metro",
-    category: "Expenditure",
-    amount: "Ksh 900"
-    },
+      category: "Expenditure",
+     amount: "Ksh 980"
+     },
     {
       date: "28/04/2024",
         description: "Miscellaneous",
